@@ -18,15 +18,44 @@
   background: green;
   color: white;
   font-size: 20;
-  text-align: center
 }
+
 .item3{
   background: darkblue;
   grid-column: span 3;
   height: 70px;
   color: white;
-  text-align: center;
 }   
+
+.item3:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item4:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item5:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item2:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item2,
+.item3,
+.item4,
+.item5{
+
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
 .item4{
   background: darkblue;
   grid-column: span 2;
